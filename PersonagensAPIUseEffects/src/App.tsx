@@ -56,9 +56,12 @@ function App() {
           )) }
         </tbody>
       </table>
+        {!!meta.prev && <button onClick={() => setPage(page - 1)}>Anterior</button>}
+        {!!meta.next && <button onClick={() => setPage(page + 1)}>Próximo</button>}
+        
+
       
-      {!!meta.prev && <button onClick={() => setPage(page - 1)}>Anterior</button>}
-      {!!meta.next && <button onClick={() => setPage(page + 1)}>Próximo</button>}
+      
 
       <br/><br/><br/>
     </>

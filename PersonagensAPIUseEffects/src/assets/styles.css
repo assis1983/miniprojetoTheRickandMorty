@@ -33,11 +33,7 @@
     border: 1px solid #ddd;
   }
   
-  table thead tr {
-    
-  }
-  
-  table thead tr th {
+    table thead tr th {
     border-bottom: 2px solid #ddd;
     text-align: left;
     background-color: var(--primary);
